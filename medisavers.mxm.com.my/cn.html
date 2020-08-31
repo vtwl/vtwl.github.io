@@ -1,0 +1,1166 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta property="og:title" content="MediSavers">
+  <meta property="og:description" content="MediSavers, to be the leading digital healthcare management provider"> 
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+
+  <title>MediSavers</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+<style>
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.test {
+    background: #02386e;
+    background: -webkit-linear-gradient(to left, #2dd4ed, #2b76d2);
+    background: linear-gradient(to left, #2dd4ed, #2b76d2);
+    min-height: 1vh;
+}
+</style>
+  <style>
+.div-mobile, div-desktop {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.p-1 {
+    padding: .25rem!important;
+}
+.font-weight-light {
+    font-weight: 300!important;
+}
+
+.m-3 {
+    margin: 1rem!important;
+}
+.p {
+    line-height: 1.75;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+</style>
+  <style>
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+video {
+	width:100%;
+	max-height:100%
+}
+</style>
+  <style>        
+	
+	@media screen and (min-width: 0px) and (max-width: 700px) {
+      #div-mobile {    display: block;  }
+      #div-desktop {    display: none;  }
+    }
+
+    @media screen and (min-width: 701px) and (max-width: 3000px) {
+      #div-mobile {    display: none;  }
+      #div-desktop {    display: block;  }
+
+	}
+	</style>
+</head>
+
+<body id="page-top">
+  <!-- Header -->
+  <header>
+  <div id="div-mobile">
+  <img width="100%" height="auto" src="img/mobiletopimage-chi.png" alt="" width="600" height="1067" />
+  <p><span><div class="top-left"><a href="index.html">EN</a></span> | <span><a target="_self" href="bm.html" target="_blank">BM </a></span>| <span><a target="_self" href="cn.html" target="_blank">中文 </a></span></p></div>
+  </div>
+  <div id="div-desktop"><img width="100%" height="auto"  src="img/desktoptopimage-chi.png" alt="" width="1920" height="1280" />
+  <p><span><div class="top-left"><a href="index.html">EN</a></span> | <span><a target="_self" href="bm.html" target="_blank">BM </a></span>| <span><a target="_self" href="cn.html" target="_blank">中文 </a></span></p></div>
+  </div>   
+  </header>
+  
+  <!--Problem Statement -->
+  <div class="container">
+  <div class="row">
+        <div class="col-lg-12 text-center">
+          <h4 class="section-heading">虽然很多人都拥有e药卡，</h4>
+		  <h4 class="section-heading">但是您对手上的e药卡了解多少呢？</h4>
+		  <div id="div-desktop"><center><img width="100%" height="auto%" src="img/08.PNG"></center></div>
+        </div>
+		<div id="div-mobile"><center><img width="55%" height="auto%"  src="img/07.png"></center></div>
+  </div>	
+  </div>
+    <!-- Problem Statement Mobile -->
+	<div id="div-mobile">
+  <section class="page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/02.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/03.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/04.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/05.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/06.png">
+          </a>
+        </div>
+        </div>
+		</div>
+		</section>
+  </div>
+   
+  <!-- Benefits -->
+  <section class="bg-light page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">
+		  <div id="div-desktop"><img src="img/09.png" width="18%" height="auto" style="margin-top:-6px;"/>e药卡的<br><a style=font-size:50px>8</a>大利益</div></h3>
+		  <h3 class="section-heading">
+		  <div id="div-mobile"><center><img src="img/09.png" width="55%" height="auto" style="margin-top:-6px;"/>e药卡的<br><a style=font-size:43px>8</a>大利益</div></h3>
+		  <br>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/1.png" alt="">
+          </span>
+          <h6 class="service-heading">保障限额<br>每3年自动<b>上涨10%</b></h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/2.png" alt="">
+          </span>
+          <h6 class="service-heading">每宗疾病限额<br>高达<b>RM1,100,000</b></h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/3.png" alt="">
+          </span>
+          <h6 class="service-heading">每年52项<b>健康检验</b><br>及<b>肿瘤标志检验</b><br><img src="img/team/22.png" width="50%" height="auto" /><br>【健康检验机构Pathlab】</h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+           <img class="rounded-circle img-fluid" src="img/4.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>无</b>终身限额<br>及年度限额</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/5.png" alt="">
+          </span>
+          <h6 class="service-heading">保单保证更新<br>至<b>2115</b>年</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/6.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>无</b>保单利益修改<br>及<b>无</b>产品回撤条规</h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/7.png" alt="">
+          </span>
+          <h6 class="service-heading">24小时全球紧急医疗疏散<br>及移送回国服务高达<br><b>USD1,000,000</b></h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/8.png" alt="">
+          </span>
+          <h6 class="service-heading">备受大马医药协会合作社<br><img src="img/koop.png" width="50%" height="auto" /><br><b>承认与认证的e药卡</b></h6>
+        </div>
+      </div>
+    </div>
+	<br>
+	<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i> 探索e药卡</a></center>-->
+  </section>
+  
+  <div id="div-mobile"><img width="100%" height="auto" src="img/mobilemiddleimage-chi.png" alt="" width="600" height="1067" /></div>
+  <div id="div-desktop"><img width="100%" height="auto"  src="img/desktopmiddleimage-chi.png" alt="" width="1920" height="1280" /></div>   
+	
+<!-- Extra Benefit -->
+<br>
+  <div class="col-lg-12 text-center">
+    <h3 class="section-heading"><b>我们也包含人寿保障</h3>
+  </div>
+  <center><div id="div-desktop"><img width="95%" height="auto"  src="img/desktopextrabenefits-chi.png" alt="" width="1920" height="1280" /></div></center>
+  <center><div id="div-mobile"><img width="100%" height="auto%" src="img/mobileextrabenefits-chi.png"></div></center>
+  
+  <section class="bg-light page-section">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+		<center>
+		<img src="img/18.png" width="85%" height="auto" />
+		</center>
+        </div>
+		<div class="col-lg-6">	
+		<br>
+		<center>
+		<h4>保障承认与认证终身e药卡</h4>
+		<h4><font color="#00008B">免费52项健康检验及肿瘤标志检验</font></h4>
+		<h6>您也可以在家线上咨询和签购配套别错过那么棒的好康！<br><font color="red">马上分享给亲朋戚友！</font></h6>
+		</center>
+		<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i> 线上咨询</a></center>-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- <div class="col-lg-12 text-center"> -->
+          <!-- <h3 class="section-heading"><b>我们需要意外保障吗？</h3> -->
+  <!-- </div> -->
+   <!-- <div><img width="100%" height="auto"  src="img/desktoppasaversimage-chi.png" alt="" width="1920" height="1280" /></div>  -->
+		   
+  <!-- Portfolio Grid -->
+  <!-- <section class="bg-light page-section" id="portfolio"> -->
+    <!-- <div class="container"> -->
+	<!-- <div class="row"> -->
+        <!-- <div class="col-lg-12 text-center"> -->
+          <!-- <h4 class="section-heading">需要分析您现有的保单或计算保费吗？</h4> -->
+		  <!-- <h4 class="section-heading"><font color="red">即可签购MediSavers e药卡就可享有以下的优惠</font></h4> -->
+		  <!-- <br> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/19.png"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6>每份保单的保费</h6> -->
+		  <!-- <h6>将捐出<b>RM19</b>作为慈善用途</h6></center> -->
+        <!-- </div> -->
+		<!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/mco-chi.jpg"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6>行动管制令（MCO）新援助计划   </h6> -->
+		  <!-- <h6><b>豁免两个月押金</b></h6></center> -->
+        <!-- </div> -->
+		<!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/21.png"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>幸运抽奖</b></h6> -->
+		  <!-- <h6>Bonanza 2020</h6></center> -->
+        <!-- </div> -->
+        <!-- </div> -->
+		<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i>  了解详情</a></center> -->
+		<!-- </div> -->
+  <!-- </section> -->
+  
+  <!-- Team -->
+  <section class="page-section" id="video">
+  <div class="container">
+      <div class="row">
+	  <div class="col-lg-12 text-center">
+          <h3 class="section-heading">一张保费较低和限额足够您终身的e药卡</h3>
+		  <br>
+        </div>
+        <div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		 <center>
+		 <h5>你是否在寻找一张保费较低门槛的电子e药卡呢？</h5>
+		 <h5>MediSavers 绝对是您的首选！</h5>
+		 <h5>请观赏以下MediSavers e药卡利益的影片。</h5>
+		 </center>
+                <center>
+				<div class="embed-responsive embed-responsive-16by9 hoverable">
+				  <video class="embed-responsive-item" controls>
+					<source src="img/video/01.mp4" type="video/mp4">
+				  </video>
+				</div>
+				</center>
+		</div><br><br>
+        </div>
+		</div>
+        </div>
+		</section>
+		
+ <!-- FAQ Desktop -->
+  <div id="div-desktop">
+  <section class="bg-light page-section">
+  <br>
+  <div class="container">
+        <div class="text-center">
+            <h3 class="section-heading">常见问题（FAQ）</h3>
+        </div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample">
+
+				<!-- Accordion item 1 -->
+                <div class="card">
+                    <div id="headingOne" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">什么是MediSavers e药卡</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers e药卡是一项医药保健会员计划，包括：</p>
+							<p class="font-weight-light m-3">1)	医药保障每月只需从119令吉起，每宗疾病限额高达RM1,100,000。</p>
+							<p class="font-weight-light m-3">2)	年度Pathlab健康检验电子券。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+                <!-- Accordion item 2 -->
+                <div class="card">
+                    <div id="headingTwo" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">谁合格使用 MediSavers e药卡？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">公司接受的年龄层从出生30天到下个生日不超过70岁的任何人。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 3 -->
+                <div class="card">
+                    <div id="headingThree" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">MediSavers e药卡可保障哪些疾病？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">只要是需要住院（病房），MediSavers e药卡即可保障几乎所有的疾病，医疗状况或事故。 但是，它并不保障先前患有的疾病，并且需要承保。</p>
+							<br>
+							<p class="font-weight-light m-0">有关详细资料，请参阅我们的 <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target=blank><font color="0000EE "><u>产品声明表。</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 4 -->
+                <div class="card">
+                    <div id="headingFour" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">在签购MediSavers e药卡前，我必须做身体检查吗？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">不，不需要体检。 可是，签购MediSavers e药卡时，您必须如实回答一些健康问题。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+				<!-- Accordion item 9 -->
+                <div class="card">
+                    <div id="headingNine" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">哪里可以获得MediSavers e药卡的指定医院名单？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">关于指定医院名单，请浏览 <a href="https://www.mxm.com.my/aanpanelhospital/" target="_blank"><font color="0000EE "><u>https://www.mxm.com.my/aanpanelhospital/</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+            </div><!-- End -->
+        </div>
+		<div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample2">
+
+                <!-- Accordion item 5 -->
+                <div class="card">
+                    <div id="headingFive" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">MediSavers e药卡涵盖哪些住院服务？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers e药卡涵盖以下住院程序：</p>
+							<p class="font-weight-light m-3">1)	病房与膳食或加护病房（ICU）</p>
+							<p class="font-weight-light m-3">2)	住院前后的咨询与诊断费</p>
+							<p class="font-weight-light m-3">3)	诊断和物理治疗</p>
+							<p class="font-weight-light m-3">4)	X光和MRI扫描</p>
+							<p class="font-weight-light m-3">5)	癌症门诊治疗</p>
+							<p class="font-weight-light m-3">6)	门诊洗肾</p>
+							<p class="font-weight-light m-3">7)	治疗与手术</p>
+							<p class="font-weight-light m-3">8)	处方类药物（药）</p>
+							<p class="font-weight-light m-3">9)	救护车</p>
+							<p class="font-weight-light m-0">有关详细资料，请参阅我们的 <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target="_blank"><font color="0000EE "><u>产品声明表。</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 6 -->
+                <div class="card">
+                    <div id="headingSix" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">病房与膳食的限制？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers e药卡的保障提供病房与膳食 RM250 和RM400的配套。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 7 -->
+                <div class="card">
+                    <div id="headingSeven" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">如果住院，我需要先付款吗？ </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">如果您去MediSavers的所指定医院，则无需付费。 只需出示您的MediSavers e药卡，我们将直接与医院结算账单。 如果您去非指定医院，则需要先支付账单，然后向MediSavers索赔以获得报销。</p>
+							<br>
+							<p class="font-weight-light m-0">注意：某些医院可能会要求您支付押金，您需要先自行支付。 医院会退还押金。 </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 8 -->
+                <div class="card">
+                    <div id="headingEight" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">什么时候可以使用MediSavers e药卡？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">如果发生意外，您可以立即使用MediSavers e药卡。 其他疾病和医疗状况有30天的等侯期。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 10 -->
+                <div class="card">
+                    <div id="headingTen" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">如何注册MediSavers e药卡？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">您只需联系服务您的顾问，或者您可以：<br><br>电邮至： <a href="mailto:enquiries@mxm.com.my"><font color="0000EE "><u>enquiries@mxm.com.my</u></font></a><br>在MediSavers官方面子书留言： <a href="http://www.m.me/mxm.international/" target="_blank"><font color="0000EE "><u>fb.mxm.com.my</u></font></a> </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+            </div><!-- End -->
+        </div>
+    </div>
+	<br>
+	<div class="row">
+    <div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/leaflet-chi.jpg" target="_blank"><i class="far fa-map"></i>  传单资讯</a></center>
+	</div>
+    <div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/pricing-chi.jpg" target="_blank"><i class="fas fa-tags"></i>  保费价格</a></center>
+	</div>
+	<div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfkLAz5mhDL1T-B7_LxFFPnQ1ZysfLLq3y_jCnGHFrdYm3q9A/viewform?usp=sf_link" target="_blank"><i class="far fa-file-alt"></i>  表格下载</a></center>
+	</div>
+  </div>
+</div>
+</div>
+<br>
+</section>
+</div>
+
+  <!-- FAQ Mobile -->
+  <div id="div-mobile">
+  <section class="bg-light page-section">
+  <br>
+  <div class="container">
+        <div class="text-center">
+            <h3 class="section-heading">常见问题（FAQ）</h3>
+        </div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample3">
+
+				<!-- Accordion item 1 -->
+                <div class="card">
+                    <div id="headingOne" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">什么是MediSavers e药卡</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers e药卡是一项医药保健会员计划，包括：</p>
+							<p class="font-weight-light m-3">1)	医药保障每月只需从119令吉起，每宗疾病限额高达RM1,100,000。</p>
+							<p class="font-weight-light m-3">2)	年度Pathlab健康检验电子券。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+                <!-- Accordion item 2 -->
+                <div class="card">
+                    <div id="headingTwo" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">谁合格使用 MediSavers e药卡？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">公司接受的年龄层从出生30天到下个生日不超过70岁的任何人。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 3 -->
+                <div class="card">
+                    <div id="headingThree" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">MediSavers e药卡可保障哪些疾病？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">只要是需要住院（病房），MediSavers e药卡即可保障几乎所有的疾病，医疗状况或事故。 但是，它并不保障先前患有的疾病，并且需要承保。</p>
+							<br>
+							<p class="font-weight-light m-0">有关详细资料，请参阅我们的 <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target=blank><font color="0000EE "><u>产品声明表。</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 4 -->
+                <div class="card">
+                    <div id="headingFour" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">在签购MediSavers e药卡前，我必须做身体检查吗？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">不，不需要体检。 可是，签购MediSavers e药卡时，您必须如实回答一些健康问题。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 5 -->
+                <div class="card">
+                    <div id="headingFive" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">MediSavers e药卡涵盖哪些住院服务？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers e药卡涵盖以下住院程序：</p>
+							<p class="font-weight-light m-3">1)	病房与膳食或加护病房（ICU）</p>
+							<p class="font-weight-light m-3">2)	住院前后的咨询与诊断费</p>
+							<p class="font-weight-light m-3">3)	诊断和物理治疗</p>
+							<p class="font-weight-light m-3">4)	X光和MRI扫描</p>
+							<p class="font-weight-light m-3">5)	癌症门诊治疗</p>
+							<p class="font-weight-light m-3">6)	门诊洗肾</p>
+							<p class="font-weight-light m-3">7)	治疗与手术</p>
+							<p class="font-weight-light m-3">8)	处方类药物（药）</p>
+							<p class="font-weight-light m-3">9)	救护车</p>
+							<p class="font-weight-light m-0">有关详细资料，请参阅我们的 <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target="_blank"><font color="0000EE "><u>产品声明表。</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 6 -->
+                <div class="card">
+                    <div id="headingSix" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">病房与膳食的限制？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers e药卡的保障提供病房与膳食 RM250 和RM400的配套。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 7 -->
+                <div class="card">
+                    <div id="headingSeven" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">如果住院，我需要先付款吗？ </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">如果您去MediSavers的所指定医院，则无需付费。 只需出示您的MediSavers e药卡，我们将直接与医院结算账单。 如果您去非指定医院，则需要先支付账单，然后向MediSavers索赔以获得报销。</p>
+							<br>
+							<p class="font-weight-light m-0">注意：某些医院可能会要求您支付押金，您需要先自行支付。 医院会退还押金。 </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 8 -->
+                <div class="card">
+                    <div id="headingEight" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">什么时候可以使用MediSavers e药卡？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">如果发生意外，您可以立即使用MediSavers e药卡。 其他疾病和医疗状况有30天的等侯期。</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+				<!-- Accordion item 9 -->
+                <div class="card">
+                    <div id="headingNine" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">哪里可以获得MediSavers e药卡的指定医院名单？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">关于指定医院名单，请浏览 <a href="https://www.mxm.com.my/aanpanelhospital/" target="_blank"><font color="0000EE "><u>https://www.mxm.com.my/aanpanelhospital/</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 10 -->
+                <div class="card">
+                    <div id="headingTen" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">如何注册MediSavers e药卡？</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">您只需联系服务您的顾问，或者您可以：<br><br>电邮至： <a href="mailto:enquiries@mxm.com.my"><font color="0000EE "><u>enquiries@mxm.com.my</u></font></a><br>在MediSavers官方面子书留言： <a href="http://www.m.me/mxm.international/" target="_blank"><font color="0000EE "><u>fb.mxm.com.my</u></font></a> </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+            </div><!-- End -->
+        </div>
+    </div>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/leaflet-chi.jpg" target="_blank" style="width: 80%; margin-top: -15px;"><i class="far fa-map"></i>  传单资讯</a></center>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/pricing-chi.jpg" target="_blank" style="width: 80%; margin-top: -15px;"><i class="fas fa-tags"></i>  保费价格</a></center>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfkLAz5mhDL1T-B7_LxFFPnQ1ZysfLLq3y_jCnGHFrdYm3q9A/viewform?usp=sf_link" target="_blank" style="width: 80%; margin-top: -15px;"><i class="far fa-file-alt"></i>  表格下载</a></center>
+</div>
+<br>
+</section>
+</div>
+		
+  <section class="page-section" id="video">
+  <div class="container">
+      <div class="row">
+	  <br>
+		<div class="col-lg-12 text-center">
+          <h3 class="section-heading">看看大家的评语</h3>
+		  <br>
+        </div>
+		<div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		<center><h5>MediSavers 拥有专业的团队为您服务，无需担心入院与索赔的复杂程序。</h5></center>
+                <center>
+				<div class="embed-responsive embed-responsive-16by9 hoverable">
+				<div id="div-desktop">
+				  <video class="embed-responsive-item" width="900" height="506.25" controls>
+					<source src="img/video/02.mp4" type="video/mp4">
+				  </video>
+				 </div>
+				 <div id="div-mobile">
+				  <video class="embed-responsive-item" width="285" height="160.31" controls>
+					<source src="img/video/02.mp4" type="video/mp4">
+				  </video>
+				 </div>
+				</div>
+				</center>
+		</div><br>
+        </div>
+        </div>
+        </div>
+		</section>
+		
+		<div id="div-desktop">
+     <section class="page-section" id="since">
+  <div>
+        <div class="col-lg-12">
+		<center>
+		<h3><b><font color="#fff">"从1998年，我们已经办理超过<a style=font-size:50px>200,000</a>份会员的保单，</font></b></h3>
+        <br>
+		<h3><b><font color="#fff">也协助高达<a style=font-size:50px>26,000</a> 以上的住院治疗案例！”</font></b></h3>
+		</center>
+        </div>
+    </div>
+  </section>
+  </div>
+  
+  <div id="div-mobile">
+       <section class="page-section" id="sincemobile">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+		<center>
+		<h4><b><font color="#fff">"从1998年，<br>我们已经办理超过<br><a style=font-size:40px>200,000</a><br>份会员的保单，</font></b></h4>
+        <br>
+		<h4><b><font color="#fff">也协助高达<br><a style=font-size:40px>26,000 </a><br>以上的住院治疗案例！”</font></b></h4>
+		</center>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+	
+<div id="div-mobile">	
+	<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-07.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-08.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-09.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-10.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-12.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-13.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-14.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-15.jpg">
+          </a>
+        </div>
+		<br>
+        </div>
+		</div>
+		</section>
+		</div>
+	
+	<div id="div-desktop">	
+	<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-01.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-02.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-03.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-04.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-05.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-06.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-07.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-08.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-09.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-10.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-11.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-12.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-13.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-14.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-15.jpg">
+          </a>
+        </div>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-16.jpg">
+          </a>
+        </div>
+        </div>
+		</div>
+		</section>
+		</div>
+		
+		<section class="page-section" id="video">
+	    <div class="container">
+        <div class="row">
+		<div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		<center><h5>除了其他的优惠配套，您也有机会赢取Mercedes-Benz C200 Avantgarde和高达RM380,000的奖品与奖金！</h5></center>
+                <center>
+				<div class="video-responsive">
+				<iframe
+                    width="80%"
+                    height="480px"
+                    src="https://www.youtube.com/embed/xkY3W7FaSYM"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    frameborder="0"
+                ></iframe>
+				</div></center>
+		</div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+<!-- Footer Desktop-->
+  <div id="div-desktop">
+  <footer class="footer">
+    <div class="container">
+	<div class="row align-items-center">
+	<div class="col-md-6">关注MediSavers 线上社交平台
+	</div>
+	<div class="col-md-6">下载MediSavers应用程式
+	</div>
+	</div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com//life.insurance.medisavers/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/medisaversmalaysia/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+			<li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="http://onelink.to/medisavers"><img class="img-fluid d-block mx-auto" width="60%" height="10%" src="img/app.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  
+  <!-- Footer Mobile-->
+  <div id="div-mobile">
+  <footer class="footer">
+    <div class="container">
+	<div class="row align-items-center">
+	<div class="col-md-6">关注MediSavers 线上社交平台
+	</div>
+	<div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com//life.insurance.medisavers/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/medisaversmalaysia/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+			<li class="list-inline-item">
+              <a href="/" target="blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+	</div>
+	&nbsp;
+	<div class="row align-items-center">
+	<div class="col-md-6">下载MediSavers应用程式
+	</div>
+	<div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="http://onelink.to/medisavers "><img class="img-fluid d-block mx-auto" width="80%" height="10%" src="img/app.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+	</div>
+    </div>
+  </footer>
+  </div>
+
+<img src="img/footer-chi.png" width="100%" height="auto" />
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me_chi.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

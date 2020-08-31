@@ -1,0 +1,1181 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta property="og:title" content="MediSavers">
+  <meta property="og:description" content="MediSavers, to be the leading digital healthcare management provider"> 
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+
+  <title>MediSavers</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+<style>
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.test {
+    background: #02386e;
+    background: -webkit-linear-gradient(to left, #2dd4ed, #2b76d2);
+    background: linear-gradient(to left, #2dd4ed, #2b76d2);
+    min-height: 1vh;
+}
+</style>
+  <style>
+.div-mobile, div-desktop {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+	height: 70%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.p-1 {
+    padding: .25rem!important;
+}
+.font-weight-light {
+    font-weight: 300!important;
+}
+
+.m-3 {
+    margin: 1rem!important;
+}
+.p {
+    line-height: 1.75;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+</style>
+  <style>
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+video {
+	width:100%;
+	max-height:100%		
+}
+</style>
+  <style>        
+	
+	@media screen and (min-width: 0px) and (max-width: 700px) {
+      #div-mobile {    display: block;  }
+      #div-desktop {    display: none;  }
+    }
+
+    @media screen and (min-width: 701px) and (max-width: 3000px) {
+      #div-mobile {    display: none;  }
+      #div-desktop {    display: block;  }
+
+	}
+	</style>
+  <style>
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+video {
+	width:100%;
+	max-height:100%
+}
+</style>
+</head>
+
+<body id="page-top">
+  <!-- Header -->
+  <header>
+  <div id="div-mobile">
+  <img width="100%" height="auto" src="img/mobiletopimage-bm.png" alt="" width="600" height="1067" />
+  <p><span><div class="top-left"><a href="index.html">EN</a></span> | <span><a target="_self" href="bm.html" target="_blank">BM </a></span>| <span><a target="_self" href="cn.html" target="_blank">中文 </a></span></p></div>
+  </div>
+  <div id="div-desktop"><img width="100%" height="auto"  src="img/desktoptopimage-bm.png" alt="" width="1920" height="1280" />
+  <p><span><div class="top-left"><a href="index.html">EN</a></span> | <span><a target="_self" href="bm.html" target="_blank">BM </a></span>| <span><a target="_self" href="cn.html" target="_blank">中文 </a></span></p></div>
+  </div>   
+  </header>
+  
+  <!--Problem Statement -->
+  <div class="container">
+  <div class="row">
+        <div class="col-lg-12 text-center">
+          <h4 class="section-heading">Kad perubatan merupakan satu keperluan.</h4>
+		  <h4 class="section-heading">Tetapi berapa banyak yang anda tahu tentang kad perubatan?</h4>
+		  <div id="div-desktop"><center><img width="100%" height="auto%" src="img/desktopquestion-bm.png"></center></div>
+        </div>
+		<div id="div-mobile"><center><img width="55%" height="auto%"  src="img/07.png"></center></div>
+  </div>	
+  </div>
+    <!-- Problem Statement Mobile -->
+	<div id="div-mobile">
+  <section class="page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q01-bm.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q02-bm.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q03-bm.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q04-bm.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q05-bm.png">
+          </a>
+        </div>
+        </div>
+		</div>
+		</section>
+  </div>
+   
+  <!-- Benefits -->
+  <section class="bg-light page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">
+		  <div id="div-desktop"><a style=font-size:50px>8 </a>Manfaat eKadPerubatan <img src="img/09.png" width="15%" height="auto" style="margin-top:-8px;"/></div></h3>
+		  <h3 class="section-heading">
+		  <div id="div-mobile"><center><a style=font-size:43px>8 </a>Manfaat eKadPerubatan<br><img src="img/09.png" width="53%" height="auto" style="margin-top:-6px;"/></div></h3>
+		  <br>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/1.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>Manfaat perlindungan meningkat <br>sebanyak 10%  </b>setiap 3 tahun <br>secara automatik</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/2.png" alt="">
+          </span>
+          <h6 class="service-heading">Sebanyak <b>RM967,500</b><br>had untuk setiap penyakit</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/3.png" alt="">
+          </span>
+          <h6 class="service-heading"><img src="img/team/22.png" width="50%" height="auto" /><br>Baucar <b>52-ujian saringan<br>darah</b> dengan penanda kanser <br>disertakan setiap tahun</h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+           <img class="rounded-circle img-fluid" src="img/4.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>Tiada had seumur hidup</b><br>dan <b>had tahunan</b></h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/5.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>Pembaharuan dijamin</b><br>sehingga Tahun 2115</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/6.png" alt="">
+          </span>
+          <h6 class="service-heading">Polisi tidak boleh dipinda.<br><b>Tanpa syarat penarikan</b></h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/7.png" alt="">
+          </span>
+          <h6 class="service-heading">Pengurusan pemindahan<br><b>perubatan kecemasan serta<br> penghantaran balik seluruh dunia</b><br>24 jam USD1,000,000</h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/8.png" alt="">
+          </span>
+          <h6 class="service-heading">Satu-satunya eKadPerubatan<br>yang disahkan oleh <br><b>Koperasi Persatuan Perubatan<br>Malaysia Berhad</b><br><img src="img/koop.png" width="50%" height="auto" /></h6>
+        </div>
+      </div>
+    </div>
+	<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i> Ketahui Lebih Lanjut </a></center>-->
+  </section>
+  
+  <div id="div-mobile"><img width="100%" height="auto" src="img/mobilemiddleimage-bm.png" alt="" width="600" height="1067" /></div>
+  <div id="div-desktop"><img width="100%" height="auto"  src="img/desktopmiddleimage-bm.png" alt="" width="1920" height="1280" /></div>   
+		   
+<!-- Extra Benefit -->
+<br>
+  <div class="col-lg-12 text-center">
+    <h3 class="section-heading"><b>Kami juga mempunyai Perlindungan Hayat</h3>
+  </div>
+  <center><div id="div-desktop"><img width="90%" height="auto"  src="img/desktopextrabenefits-bm.png" alt="" width="1920" height="1280" /></div></center>
+  <center><div id="div-mobile"><img width="100%" height="auto%" src="img/mobileextrabenefits-bm.png"></div></center>
+  
+  <section class="bg-light page-section">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+		<center>
+		<img src="img/18.png" width="85%" height="auto" />
+		</center>
+        </div>
+		<div class="col-lg-6">	
+		<br>
+		<center>
+		<h4>Daftar eKadPerubatan MediSavers</h4>
+		<h4>sepenuhnya dalam talian </h4>
+		<h4>dengan <font color="red">perundingan digital percuma</font>!</h4>
+		</center>
+		<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i> Perundingan Digital Percuma</a></center>-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- <div class="col-lg-12 text-center"> -->
+          <!-- <h3 class="section-heading"><b>Mengapa kita memerlukan Insurans Kemalangan Peribadi?</h3> -->
+  <!-- </div> -->
+  <!-- <div><img width="100%" height="auto"  src="img/desktoppasaversimage-en.png" alt="" width="1920" height="1280" /></div> 																													  -->
+		   
+  <!-- Portfolio Grid -->
+  <!-- <section class="bg-light page-section" id="portfolio"> -->
+    <!-- <div class="container"> -->
+	<!-- <div class="row"> -->
+        <!-- <div class="col-lg-12 text-center"> -->
+          <!-- <h4 class="section-heading">Penasihat terlatih kami akan</h4> -->
+		  <!-- <h4 class="section-heading">menyemak polisi insurans perubatan sedia ada anda</h4> -->
+		  <!-- <h4 class="section-heading">dan berikan sebut harga eKadPerubatan MediSavers secara PERCUMA!</h4> -->
+		  <!-- <br> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/19.png"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>RM19</b> dari setiap pendaftaran</h6> -->
+		  <!-- <h6>akan disumbangkan kepada </h6> -->
+		  <!-- <h6>Tabung Amal COVID-19 MediSavers</h6></center> -->
+        <!-- </div> -->
+		<!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/mco-bm.jpg"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>Pengecualian:</b></h6> -->
+		  <!-- <h6>2-bulan deposit</h6> -->
+		  <!-- <h6>dibawah Kempen Bantuan PKP kami</h6></center> -->
+        <!-- </div> -->
+		<!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/21.png"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>Berpeluang untuk memenangi</b></h6> -->
+		  <!-- <h6>Mercedez-Benz C200</h6> -->
+		  <!-- <h6>Avantgarde</h6></center> -->
+        <!-- </div> -->
+        <!-- </div> -->
+		<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i>  Ketahui Lebih Lanjut!</a></center> -->
+		<!-- </div> -->
+  <!-- </section> -->
+  
+  <!-- Team -->
+  <section class="page-section" id="video">
+  <div class="container">
+      <div class="row">
+	  <br>
+	  <div class="col-lg-12 text-center">
+          <h3 class="section-heading">MediSavers ialah eKadPerubatan yang berpatutan dengan had setiap penyakit yang tinggi</h3>
+        </div>
+        <div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		 <center>
+		 <h5>Anda sedang mencari eKadPerubatan dengan premium yang lebih rendah?</h5>
+		 <h5>eKadPerubatan MediSavers adalah pilihan terbaik anda. Tonton video ini untuk manfaat eKadPerubatan kami.</h5>
+		 </center>
+                <center>
+				<div class="embed-responsive embed-responsive-16by9 hoverable">
+				  <video class="embed-responsive-item" controls>
+					<source src="img/video/01-bm.mp4" type="video/mp4">
+				  </video>
+				</div>
+				</center>
+		</div><br><br>
+        </div>
+		</div>
+        </div>
+		</section>
+		
+ <!-- FAQ Desktop -->
+  <div id="div-desktop">
+  <section class="bg-light page-section">
+  <br>
+  <div class="container">
+        <div class="text-center">
+            <h3 class="section-heading">Soalan Lazim (FAQ)</h3>
+        </div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample">
+
+				<!-- Accordion item 1 -->
+                <div class="card">
+                    <div id="headingOne" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers ialah merupakan program keahlian penjagaan kesihatan yang menawarkan</p>
+							<p class="font-weight-light m-3">1)	Perlindungan perubatan sebanyak RM967,500 untuk setiap penyakit dengan hanya RM119/bulan.</p>
+							<p class="font-weight-light m-3">2)	eBaucar pemeriksaan kesihatan tahunan Pathlab.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+                <!-- Accordion item 2 -->
+                <div class="card">
+                    <div id="headingTwo" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Siapakah yang layak untuk memohon eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Individu yang berumur dari 30 hari hingga 70 tahun pada tarikh lahir yang berikutnya layak untuk memohon. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 3 -->
+                <div class="card">
+                    <div id="headingThree" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah penyakit yang dilindungi eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers melindungi hampir kesemua penyakit, keadaan perubatan atau kemalangan selagi ia memerlukan kemasukan ke hospital (wad). Walau bagaimanapun, ia tidak melindungi penyakit yang sedia ada dan tertakluk kepada pengunderaitan.</p>
+							<br>
+							<p class="font-weight-light m-0">Sila rujuk <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/06/MediSaversVIP-Takaful-Product-Disclosure-Sheet.pdf" target=blank><font color="0000EE "><u>Helaian Keterangan Produk </u></font></a>kami untuk maklumat lanjut.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 4 -->
+                <div class="card">
+                    <div id="headingFour" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Adakah saya perlu menjalani pemeriksaan perubatan sebelum membeli eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Tidak, pemeriksaan perubatan tidak diperlukan. Walau bagaimanapun, anda mesti menjawab beberapa soalan kesihatan dengan jujur semasa membeli eKadPerubatan MediSavers.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+				<!-- Accordion item 9 -->
+                <div class="card">
+                    <div id="headingNine" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Di manakah senarai hospital panel eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Untuk senarai hospital panel kami, rujuk di <a href="https://www.mxm.com.my/aanpanelhospital/" target="_blank"><font color="0000EE "><u>https://www.mxm.com.my/aanpanelhospital/</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+            </div><!-- End -->
+        </div>
+		<div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample2">
+
+                <!-- Accordion item 5 -->
+                <div class="card">
+                    <div id="headingFive" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah perkhidmatan hospitalisasi yang ditawarkan oleh eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers menawarkan prosedur penghospitalan seperti berikut:</p>
+							<p class="font-weight-light m-3">1)	Bilik & Makan untuk kemasukan ke hospital atau Unit Rawatan Rapi (ICU)</p>
+							<p class="font-weight-light m-3">2)	Perundingan sebelum dan selepas rawatan di hospital</p>
+							<p class="font-weight-light m-3">3)	Diagnostik dan fisioterapi</p>
+							<p class="font-weight-light m-3">4)	Imbasan X-ray dan MRI</p>
+							<p class="font-weight-light m-3">5)	Rawatan Pesakit Luar bagi Kanser</p>
+							<p class="font-weight-light m-3">6)	Rawatan Pesakit Luar bagi Dialisis Buah Pinggang</p>
+							<p class="font-weight-light m-3">7)	Rawatan dan Pembedahan</p>
+							<p class="font-weight-light m-3">8)	Ubat preskripsi</p>
+							<p class="font-weight-light m-3">9)	Ambulans</p>
+							<p class="font-weight-light m-0">Sila rujuk <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/06/MediSaversVIP-Takaful-Product-Disclosure-Sheet.pdf" target="_blank"><font color="0000EE "><u>Helaian Keterangan Produk </u></font></a>kami untuk maklumat lanjut. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 6 -->
+                <div class="card">
+                    <div id="headingSix" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah had Bilik & Makan?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers menawarkan perlindungan untuk Bilik & Makan hospital sebanyak RM 225 dan RM 360.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 7 -->
+                <div class="card">
+                    <div id="headingSeven" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Adakah saya perlu membayar terlebih dahulu jika dimasukkan ke hospital? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Sekiranya anda pergi ke hospital panel MediSavers, anda tidak perlu membuat pembayaran. Hanya perlu tunjukkan eKadPerubatan MediSavers anda dan kami akan menguruskan pembayaran bil terus ke hospital. Sekiranya anda pergi ke hospital bukan panel, anda perlu membayar bil terlebih dahulu dan membuat tuntutan dengan MediSavers untuk mendapatkan bayaran balik.</p>
+							<br>
+							<p class="font-weight-light m-0">Catatan: Sebilangan hospital mungkin memerlukan deposit yang perlu dibayar sendiri terlebih dahulu. Deposit akan dikembalikan oleh hospital. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 8 -->
+                <div class="card">
+                    <div id="headingEight" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Bilakah saya boleh menggunakan eKadPerubatan MediSavers? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Anda boleh terus menggunakan eKadPerubatan MediSavers untuk kemalangan. Terdapat tempoh menunggu selama 30 hari untuk penyakit dan keadaan perubatan yang lain. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 10 -->
+                <div class="card">
+                    <div id="headingTen" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Bagaimanakah cara untuk saya mendaftar eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Anda boleh hubungi khidmat penasihat keahlian anda atau:<br><br>E-mel kami di: <a href="mailto:enquiries@mxm.com.my"><font color="0000EE "><u>enquiries@mxm.com.my</u></font></a><br>Hantarkan PM kepada kami di Facebook: <a href="http://www.m.me/mxm.international/" target="_blank"><font color="0000EE "><u>fb.mxm.com.my</u></font></a> </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+            </div><!-- End -->
+        </div>
+    </div>
+	<br>
+	<div class="row">
+    <div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/leaflet-bm.jpg" target="_blank"><i class="far fa-map"></i>  Bahagian Risalah</a></center>
+	</div>
+    <div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/pricing-bm.jpg" target="_blank"><i class="fas fa-tags"></i>  Bahagian Harga</a></center>
+	</div>
+	<div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfkLAz5mhDL1T-B7_LxFFPnQ1ZysfLLq3y_jCnGHFrdYm3q9A/viewform?usp=sf_link" target="_blank"><i class="far fa-file-alt"></i>  Bahagian Borang</a></center>
+	</div>
+  </div>
+</div>
+</div>
+<br>
+</section>
+</div>
+
+  <!-- FAQ Mobile -->
+  <div id="div-mobile">
+  <section class="bg-light page-section">
+  <br>
+  <div class="container">
+        <div class="text-center">
+            <div class="text-center">
+            <h3 class="section-heading">Soalan Lazim (FAQ)</h3>
+        </div>
+        </div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample3">
+
+				<!-- Accordion item 1 -->
+                <div class="card">
+                    <div id="headingOne" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers ialah merupakan program keahlian penjagaan kesihatan yang menawarkan</p>
+							<p class="font-weight-light m-3">1)	Perlindungan perubatan sebanyak RM967,500 untuk setiap penyakit dengan hanya RM119/bulan.</p>
+							<p class="font-weight-light m-3">2)	eBaucar pemeriksaan kesihatan tahunan Pathlab.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+                <!-- Accordion item 2 -->
+                <div class="card">
+                    <div id="headingTwo" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Siapakah yang layak untuk memohon eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Individu yang berumur dari 30 hari hingga 70 tahun pada tarikh lahir yang berikutnya layak untuk memohon. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 3 -->
+                <div class="card">
+                    <div id="headingThree" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah penyakit yang dilindungi eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers melindungi hampir kesemua penyakit, keadaan perubatan atau kemalangan selagi ia memerlukan kemasukan ke hospital (wad). Walau bagaimanapun, ia tidak melindungi penyakit yang sedia ada dan tertakluk kepada pengunderaitan.</p>
+							<br>
+							<p class="font-weight-light m-0">Sila rujuk <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/06/MediSaversVIP-Takaful-Product-Disclosure-Sheet.pdf" target=blank><font color="0000EE "><u>Helaian Keterangan Produk </u></font></a>kami untuk maklumat lanjut.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 4 -->
+                <div class="card">
+                    <div id="headingFour" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Adakah saya perlu menjalani pemeriksaan perubatan sebelum membeli eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Tidak, pemeriksaan perubatan tidak diperlukan. Walau bagaimanapun, anda mesti menjawab beberapa soalan kesihatan dengan jujur semasa membeli eKadPerubatan MediSavers.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 5 -->
+                <div class="card">
+                    <div id="headingFive" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah perkhidmatan hospitalisasi yang ditawarkan oleh eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers menawarkan prosedur penghospitalan seperti berikut:</p>
+							<p class="font-weight-light m-3">1)	Bilik & Makan untuk kemasukan ke hospital atau Unit Rawatan Rapi (ICU)</p>
+							<p class="font-weight-light m-3">2)	Perundingan sebelum dan selepas rawatan di hospital</p>
+							<p class="font-weight-light m-3">3)	Diagnostik dan fisioterapi</p>
+							<p class="font-weight-light m-3">4)	Imbasan X-ray dan MRI</p>
+							<p class="font-weight-light m-3">5)	Rawatan Pesakit Luar bagi Kanser</p>
+							<p class="font-weight-light m-3">6)	Rawatan Pesakit Luar bagi Dialisis Buah Pinggang</p>
+							<p class="font-weight-light m-3">7)	Rawatan dan Pembedahan</p>
+							<p class="font-weight-light m-3">8)	Ubat preskripsi</p>
+							<p class="font-weight-light m-3">9)	Ambulans</p>
+							<p class="font-weight-light m-0">Sila rujuk <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/06/MediSaversVIP-Takaful-Product-Disclosure-Sheet.pdf" target="_blank"><font color="0000EE "><u>Helaian Keterangan Produk </u></font></a>kami untuk maklumat lanjut. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 6 -->
+                <div class="card">
+                    <div id="headingSix" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Apakah had Bilik & Makan?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">eKadPerubatan MediSavers menawarkan perlindungan untuk Bilik & Makan hospital sebanyak RM 225 dan RM 360.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 7 -->
+                <div class="card">
+                    <div id="headingSeven" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Adakah saya perlu membayar terlebih dahulu jika dimasukkan ke hospital? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Sekiranya anda pergi ke hospital panel MediSavers, anda tidak perlu membuat pembayaran. Hanya perlu tunjukkan eKadPerubatan MediSavers anda dan kami akan menguruskan pembayaran bil terus ke hospital. Sekiranya anda pergi ke hospital bukan panel, anda perlu membayar bil terlebih dahulu dan membuat tuntutan dengan MediSavers untuk mendapatkan bayaran balik.</p>
+							<br>
+							<p class="font-weight-light m-0">Catatan: Sebilangan hospital mungkin memerlukan deposit yang perlu dibayar sendiri terlebih dahulu. Deposit akan dikembalikan oleh hospital. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 8 -->
+                <div class="card">
+                    <div id="headingEight" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Bilakah saya boleh menggunakan eKadPerubatan MediSavers? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Anda boleh terus menggunakan eKadPerubatan MediSavers untuk kemalangan. Terdapat tempoh menunggu selama 30 hari untuk penyakit dan keadaan perubatan yang lain. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+				<!-- Accordion item 9 -->
+                <div class="card">
+                    <div id="headingNine" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Di manakah senarai hospital panel eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Untuk senarai hospital panel kami, rujuk di <a href="https://www.mxm.com.my/aanpanelhospital/" target="_blank"><font color="0000EE "><u>https://www.mxm.com.my/aanpanelhospital/</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 10 -->
+                <div class="card">
+                    <div id="headingTen" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Bagaimanakah cara untuk saya mendaftar eKadPerubatan MediSavers?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Anda boleh hubungi khidmat penasihat keahlian anda atau:<br><br>E-mel kami di: <a href="mailto:enquiries@mxm.com.my"><font color="0000EE "><u>enquiries@mxm.com.my</u></font></a><br>Hantarkan PM kepada kami di Facebook: <a href="http://www.m.me/mxm.international/" target="_blank"><font color="0000EE "><u>fb.mxm.com.my</u></font></a> </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+            </div><!-- End -->
+        </div>
+    </div>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/leaflet-bm.jpg" target="_blank" style="width: 80%; margin-top: -15px;"><i class="far fa-map"></i>  Bahagian Risalah</a></center>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/pricing-bm.jpg" target="_blank" style="width: 80%; margin-top: -15px;"><i class="fas fa-tags"></i>  Bahagian Harga</a></center>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfkLAz5mhDL1T-B7_LxFFPnQ1ZysfLLq3y_jCnGHFrdYm3q9A/viewform?usp=sf_link" target="_blank" style="width: 80%; margin-top: -15px;"><i class="far fa-file-alt"></i>  Bahagian Borang</a></center>
+</div>
+<br>
+</section>
+</div>
+		
+  <section class="page-section" id="video">
+  <div class="container">
+      <div class="row">
+	  <br>
+		<div class="col-lg-12 text-center">
+          <h3 class="section-heading">Tonton testimoni pelanggan kami yang berpuas hati</h3>
+        </div>
+		<div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		<center><h5>MediSavers mempunyai pasukan yang berdedikasi untuk membantu kemasukan dan tuntutan hospital anda.</h5><h5>Kami sedia berkhidmat!</h5></center>
+                <center>
+				<div class="embed-responsive embed-responsive-16by9 hoverable">
+				<div id="div-desktop">
+				  <video class="embed-responsive-item" width="900" height="506.25" controls>
+					<source src="img/video/02-bm.mp4" type="video/mp4">
+				  </video>
+				 </div>
+				 <div id="div-mobile">
+				  <video class="embed-responsive-item" width="285" height="160.31" controls>
+					<source src="img/video/02-bm.mp4" type="video/mp4">
+				  </video>
+				 </div>
+				</div>
+				</center>
+		</div><br>
+        </div>
+        </div>
+        </div>
+		</section>
+		
+		<div id="div-desktop">
+     <section class="page-section" id="since">
+  <div>
+        <div class="col-lg-12">
+		<center>
+		<h3><b><font color="#fff">"Kami telah mengeluarkan lebih daripada <a style=font-size:50px>200,000</a> polisi insurans perubatan</font></b></h3>
+        <br>
+		<h3><b><font color="#fff">dan membantu <a style=font-size:50px>26,000</a> kemasukan ke hospital sejak tahun 1998!”</font></b></h3>
+		</center>
+        </div>
+    </div>
+  </section>
+  </div>
+  
+  <div id="div-mobile">
+       <section class="page-section" id="sincemobile">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+		<center>
+		<h4><b><font color="#fff">"Kami telah mengeluarkan lebih daripada<br><a style=font-size:40px>200,000</a><br> polisi insurans perubatan</font></b></h4>
+        <br>
+		<h4><b><font color="#fff">dan membantu <br><a style=font-size:40px>26,000 </a><br> kemasukan ke hospital sejak tahun 1998!”</font></b></h4>
+		</center>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+	
+<div id="div-mobile">	
+	<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-07-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-08-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-09-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-10-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-12-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-13-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-14-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-15-bm.jpg">
+          </a>
+        </div>
+		<br>
+        </div>
+		</div>
+		</section>
+		</div>
+	
+	<div id="div-desktop">	
+	<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-01-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-02-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-03-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-04-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-05-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-06-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-07-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-08-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-09-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-10-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-11-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-12-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-13-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-14-bm.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-15-bm.jpg">
+          </a>
+        </div>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-16-bm.jpg">
+          </a>
+        </div>
+        </div>
+		</div>
+		</section>
+		</div>
+		
+		<section class="page-section" id="video">
+	    <div class="container">
+        <div class="row">
+		<div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		<center><h3>Tawaran Masa Terhad</h3></center>
+		<center><h5>Anda juga berpeluang memenangi Mercedes-Benz C200 Avantgarde dan hadiah serta bonus sehingga RM380,000!</h5></center>
+                <center>
+				<div class="video-responsive">
+				<iframe
+                    width="80%"
+                    height="480px"
+                    src="https://www.youtube.com/embed/xkY3W7FaSYM"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    frameborder="0"
+                ></iframe>
+				</div></center>
+		</div>
+        </div>
+      </div>
+      </div>
+  </section>
+  
+  <!-- Footer Desktop-->
+  <div id="div-desktop">
+  <footer class="footer">
+    <div class="container">
+	<div class="row align-items-center">
+	<div class="col-md-6">Ikuti MediSavers di Platform Media Sosial!
+	</div>
+	<div class="col-md-6">Muat turun Aplikasi MediSavers sekarang!
+	</div>
+	</div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/mxm.international/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/medisaversmalaysia/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+			<li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="http://onelink.to/medisavers"><img class="img-fluid d-block mx-auto" width="60%" height="10%" src="img/app.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  
+  <!-- Footer Mobile-->
+  <div id="div-mobile">
+  <footer class="footer">
+    <div class="container">
+	<div class="row align-items-center">
+	<div class="col-md-6">Ikuti MediSavers di Platform Media Sosial!
+	</div>
+	<div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/mxm.international/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/medisaversmalaysia/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+			<li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+	</div>
+	&nbsp;
+	<div class="row align-items-center">
+	<div class="col-md-6">Muat turun Aplikasi MediSavers sekarang!
+	</div>
+	<div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="http://onelink.to/medisavers "><img class="img-fluid d-block mx-auto" width="80%" height="10%" src="img/app.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+	</div>
+    </div>
+  </footer>
+  </div>
+
+<img src="img/footer-bm.png" width="100%" height="auto" />
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me_bm.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

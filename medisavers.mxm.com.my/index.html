@@ -1,0 +1,1188 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta property="og:title" content="MediSavers">
+  <meta property="og:description" content="MediSavers, to be the leading digital healthcare management provider"> 
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+
+  <title>MediSavers</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+<style>
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.test {
+    background: #02386e;
+    background: -webkit-linear-gradient(to left, #2dd4ed, #2b76d2);
+    background: linear-gradient(to left, #2dd4ed, #2b76d2);
+    min-height: 1vh;
+}
+</style>
+  <style>
+.div-mobile, div-desktop {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.embed-responsive {
+    position: relative;
+	display: block;			   
+    width: 100%;
+	height: 70%;		 
+    padding: 0;
+    overflow: hidden;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+.text-white {
+    color: #fff!important;
+}
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.p-1 {
+    padding: .25rem!important;
+}
+.font-weight-light {
+    font-weight: 300!important;
+}
+
+.m-3 {
+    margin: 1rem!important;
+}
+.p {
+    line-height: 1.75;
+}
+.p-3 {
+    padding: 1rem!important;
+}
+</style>
+  <style>
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+video {
+	width:100%;
+	max-height:100%
+}
+</style>
+  <style>        
+	
+	@media screen and (min-width: 0px) and (max-width: 700px) {
+      #div-mobile {    display: block;  }
+      #div-desktop {    display: none;  }
+    }
+
+    @media screen and (min-width: 701px) and (max-width: 3000px) {
+      #div-mobile {    display: none;  }
+      #div-desktop {    display: block;  }
+
+	}
+	</style>
+  <style>
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+video {
+	width:100%;
+	max-height:100%
+}
+</style>		
+</head>
+
+<body id="page-top">
+  <!-- Header -->
+  <header>
+  <div id="div-mobile">
+  <img width="100%" height="auto" src="img/mobiletopimage-en.png" alt="" width="600" height="1067" />
+  <p><span><div class="top-left"><a href="index.html">EN</a></span> | <span><a target="_self" href="bm.html" target="_blank">BM </a></span>| <span><a target="_self" href="cn.html" target="_blank">中文 </a></span></p></div>
+  </div>
+  <div id="div-desktop"><img width="100%" height="auto"  src="img/desktoptopimage-en.png" alt="" width="1920" height="1280" />
+  <p><span><div class="top-left"><a href="index.html">EN</a></span> | <span><a target="_self" href="bm.html" target="_blank">BM </a></span>| <span><a target="_self" href="cn.html" target="_blank">中文 </a></span></p></div>
+  </div>   
+  </header>
+  
+  <!--Problem Statement -->
+  <div class="container">
+  <div class="row">
+        <div class="col-lg-12 text-center">
+          <h4 class="section-heading">A medical card is necessary.</h4>
+		  <h4 class="section-heading">But how much do you know about medical cards?</h4>
+		  <div id="div-desktop"><center><img width="100%" height="auto%" src="img/desktopquestion-en.png"></center></div>
+        </div>
+		<div id="div-mobile"><center><img width="55%" height="auto%"  src="img/07.png"></center></div>
+  </div>	
+  </div>
+    <!-- Problem Statement Mobile -->
+	<div id="div-mobile">
+  <section class="page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q01-en.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q02-en.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q03-en.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q04-en.png">
+          </a>
+        </div>
+		<div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/Q05-en.png">
+          </a>
+        </div>
+        </div>
+		</div>
+		</section>
+  </div>
+   
+  <!-- Benefits -->
+  <section class="bg-light page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">
+		  <div id="div-desktop"><a style=font-size:50px>8 </a>Benefits of <img src="img/09.png" width="16%" height="auto" style="margin-top:-8px;"/>eMedicalCard</div></h3>
+		  <h3 class="section-heading">
+		  <div id="div-mobile"><center><a style=font-size:43px>8 </a>Benefits of<br><img src="img/09.png" width="55%" height="auto" style="margin-top:-6px;"/>eMedicalCard</div></h3>
+		  <br>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/1.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>10% automatically <br>increasing </b>coverage <br>benefits every 3 years</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/2.png" alt="">
+          </span>
+          <h6 class="service-heading">High <b>RM1,100,000</b><br>per illness limit</h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/3.png" alt="">
+          </span>
+          <h6 class="service-heading"><img src="img/team/22.png" width="50%" height="auto" /><br><b>52-test blood screening<br>voucher</b> with cancer markers<br>included every year</h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+           <img class="rounded-circle img-fluid" src="img/4.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>No lifetime limit</b><br>and <b>no annual limit</b></h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/5.png" alt="">
+          </span>
+          <h6 class="service-heading"><b>Guaranteed renewable</b><br>until Year 2115</b></h6>
+        </div>
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/6.png" alt="">
+          </span>
+          <h6 class="service-heading">Policy cannot be ammended.<br><b>No withdrawal conditions</b></h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/7.png" alt="">
+          </span>
+          <h6 class="service-heading">24-hour <b>worldwide emergency<br>medical evacuation</b> and<br>repatriation of mortal remains <br>up to <b>USD1,000,000</b></h6>
+        </div>
+		<div class="col-md-3">
+          <span class="fa-stack fa-4x">
+            <img class="rounded-circle img-fluid" src="img/8.png" alt="">
+          </span>
+          <h6 class="service-heading">The only eMedicalCard<br>endorsed by<br><b>Koperasi Persatuan Perubatan<br>Malaysia Berhad</b><br><img src="img/koop.png" width="50%" height="auto" /></h6>
+        </div>
+      </div>
+    </div>
+	<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i> Learn More</a></center>-->
+  </section>
+  
+  <div id="div-mobile"><img width="100%" height="auto" src="img/mobilemiddleimage-en.png" alt="" width="600" height="1067" /></div>
+  <div id="div-desktop"><img width="100%" height="auto"  src="img/desktopmiddleimage-en.png" alt="" width="1920" height="1280" /></div>   
+  
+  <!-- Extra Benefit -->
+  <br>
+  <div class="col-lg-12 text-center">
+    <h3 class="section-heading"><b>We also have Life Coverage</h3>
+  </div>
+  <center><div id="div-desktop"><img width="95%" height="auto"  src="img/desktopextrabenefits-en.png" alt="" width="1920" height="1280" /></div></center>
+  <center><div id="div-mobile"><img width="100%" height="auto%" src="img/mobileextrabenefits-en.png"></div></center>
+  
+  <section class="bg-light page-section">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+		<center>
+		<img src="img/18.png" width="85%" height="auto" />
+		</center>
+        </div>
+		<div class="col-lg-6">	
+		<br>
+		<center>
+		<h4>Sign up for</h4>
+		<h4>MediSavers eMedicalCard entirely online</h4>
+		<h4>with a <font color="red">free digital consultation</font>!</h4>
+		</center>
+		<!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i> Free Digital Consultation</a></center>-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- <div class="col-lg-12 text-center"> -->
+          <!-- <h3 class="section-heading"><b>Why do we need a Personal Accident Insurance?</h3> -->
+  <!-- </div> -->
+  <!-- <div><img width="100%" height="auto"  src="img/desktoppasaversimage-en.png" alt="" width="1920" height="1280" /></div>  -->
+		   
+  <!-- Portfolio Grid -->
+  <!-- <section class="bg-light page-section" id="portfolio"> -->
+    <!-- <div class="container"> -->
+	<!-- <div class="row"> -->
+        <!-- <div class="col-lg-12 text-center"> -->
+          <!-- <h4 class="section-heading">Our trained advisors</h4> -->
+		  <!-- <h4 class="section-heading">will review your existing medical insurance policy</h4> -->
+		  <!-- <h4 class="section-heading">and give you a FREE quote for MediSavers eMedicalCard</h4> -->
+		  <!-- <br> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/19.png"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>RM19</b> from each sign-up</h6> -->
+		  <!-- <h6>will be donated to MediSavers</h6> -->
+		  <!-- <h6>Covid-19 Charity Fund</h6></center> -->
+        <!-- </div> -->
+		<!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/mco-en.jpg"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>Waived:</b></h6> -->
+		  <!-- <h6>Usual 2-month deposit</h6> -->
+		  <!-- <h6>under our MCO Assist Campaign</h6></center> -->
+        <!-- </div> -->
+		<!-- <div class="col-md-4 col-sm-6 portfolio-item"> -->
+          <!-- <a class="portfolio-link" data-toggle="modal"> -->
+            <!-- <img class="img-fluid" src="img/portfolio/21.png"> -->
+          <!-- </a> -->
+		  <!-- <br> -->
+		  <!-- <center><h6><b>Stand a chance to win</b></h6> -->
+		  <!-- <h6>a Mercedes-Benz C200</h6> -->
+		  <!-- <h6>Avantgarde</h6></center> -->
+        <!-- </div> -->
+        <!-- </div> -->
+		 <!-- <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact"><i class="fa fa-arrow-right"></i>  Learn More</a></center> -->
+		<!-- </div> -->
+  <!-- </section> -->
+  
+  <!-- Team -->
+  <section class="page-section" id="video">
+  <div class="container">
+      <div class="row">
+	  <br>
+	  <div class="col-lg-12 text-center">
+          <h3 class="section-heading">MediSavers is an affordable eMedicalCard with a high per illness limit</h3>
+        </div>
+        <div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		 <center>
+		 <h5>Are you looking for an eMedicalCard with a lower premium?</h5>
+		 <h5>MediSavers eMedicalCard is your best choice. Watch this video for our eMedicalCard benefits.</h5>
+		 </center>
+                <center>
+				<div class="embed-responsive embed-responsive-16by9 hoverable">
+				  <video class="embed-responsive-item" controls>
+					<source src="img/video/01-en.mp4" type="video/mp4">
+				  </video>
+				</div>
+				</center>
+		</div><br><br>
+        </div>
+		</div>
+        </div>
+		</section>
+		
+ <!-- FAQ Desktop -->
+  <div id="div-desktop">
+  <section class="bg-light page-section">
+  <br>
+  <div class="container">
+        <div class="text-center">
+            <h3 class="section-heading">Frequently Asked Questions (FAQ)</h3>
+        </div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample">
+
+				<!-- Accordion item 1 -->
+                <div class="card">
+                    <div id="headingOne" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What is MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard is a healthcare membership program which consist of</p>
+							<p class="font-weight-light m-3">1)	Medical protection that offers a high RM1.1 million per illness from only RM119/month.</p>
+							<p class="font-weight-light m-3">2)	Annual Pathlab health screening eVoucher.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+                <!-- Accordion item 2 -->
+                <div class="card">
+                    <div id="headingTwo" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Who is eligible for MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Anyone accepted by the Company aged from 30 days and up to 70 years old next birthday.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 3 -->
+                <div class="card">
+                    <div id="headingThree" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What illness does MediSavers eMedicalCard cover?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard covers almost any illness, medical condition or accident as long as it requires hospitalisation (warded). However, it does not cover pre-existing illness and is subject to underwriting. </p>
+							<br>
+							<p class="font-weight-light m-0">Please refer to our <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target="_blank"><font color="0000EE "><u>Product Disclosure Sheet</u></font></a> for details. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 4 -->
+                <div class="card">
+                    <div id="headingFour" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Do I need to go for a medical checkup before purchasing MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">No, medical checkup is not required. However, you have to answer a few health questions truthfully when purchasing MediSavers eMedicalCard.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+				<!-- Accordion item 9 -->
+                <div class="card">
+                    <div id="headingNine" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Where is the MediSavers eMedicalCard panel hospital list?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">For the list of our panel hospitals, go to <a href="https://www.mxm.com.my/aanpanelhospital/" target="_blank"><font color="0000EE "><u>https://www.mxm.com.my/aanpanelhospital/</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+            </div><!-- End -->
+        </div>
+		<div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample2">
+
+                <!-- Accordion item 5 -->
+                <div class="card">
+                    <div id="headingFive" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What hospitalisation services are covered by MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard covers the following hospitalization procedures:</p>
+							<p class="font-weight-light m-3">1)	Room & Board for hospital admission or Intensive Care Unit (ICU)</p>
+							<p class="font-weight-light m-3">2)	Pre- and post-hospitalization consultation</p>
+							<p class="font-weight-light m-3">3)	Diagnostics and physiotherapy</p>
+							<p class="font-weight-light m-3">4)	X-ray and MRI scans</p>
+							<p class="font-weight-light m-3">5)	Outpatient Cancer Treatment</p>
+							<p class="font-weight-light m-3">6)	Outpatient Kidney Dialysis</p>
+							<p class="font-weight-light m-3">7)	Treatment and Surgery</p>
+							<p class="font-weight-light m-3">8)	Prescription drugs (medicine)</p>
+							<p class="font-weight-light m-3">9)	Ambulance</p>
+							<p class="font-weight-light m-0">Please refer to our <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target="_blank"><font color="0000EE "><u>Product Disclosure Sheet </u></font></a>for details. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 6 -->
+                <div class="card">
+                    <div id="headingSix" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What is the Room & Board limit? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard provides coverage for hospital Room & Board up to RM 250 and RM 400.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 7 -->
+                <div class="card">
+                    <div id="headingSeven" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Do I need to pay first if admitted to hospital? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">If you go to a MediSavers panel hospital, you won't have to pay. Just present your MediSavers eMedicalCard and we will settle the bill directly with the hospital. If you go to a non-panel hospital, you need to pay the bill first and then make a claim with MediSavers to get reimbursement. </p>
+							<br>
+							<p class="font-weight-light m-0">Note: Some hospitals may require a deposit that you will need to pay on your own first. The deposit is refundable by the hospital. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 8 -->
+                <div class="card">
+                    <div id="headingEight" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">When can I use the MediSavers eMedicalCard? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">You can use the MediSavers eMedicalCard immediately for accidents. There is a 30-day waiting period for other illness and medical conditions. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 10 -->
+                <div class="card">
+                    <div id="headingTen" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">How do I enrol for MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample2" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Just contact your servicing membership advisor or you may:<br><br>Email Us: <a href=":"><font color="0000EE "><u></u></font></a><br>Drop us a PM at Facebook: <a href="http://www.m.me//life.insurance.medisavers/" target="_blank"><font color="0000EE "><u>fb.mxm.com.my</u></font></a> </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+            </div><!-- End -->
+        </div>
+    </div>
+	<br>
+	<div class="row">
+    <div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/leaflet-en.jpg" target="_blank"><i class="far fa-map"></i>  Leaflet Section</a></center>
+	</div>
+    <div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/pricing-en.jpg" target="_blank"><i class="fas fa-tags"></i>  Pricing Section</a></center>
+	</div>
+	<div class="col-sm-4">
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="https://www.mxm.com.my/application-form/" target="_blank"><i class="far fa-file-alt"></i>  Form Section</a></center>
+	</div>
+  </div>
+</div>
+</div>
+<br>
+</section>
+</div>
+
+  <!-- FAQ Mobile -->
+  <div id="div-mobile">
+  <section class="bg-light page-section">
+  <br>
+  <div class="container">
+        <div class="text-center">
+            <h3 class="section-heading">Frequently Asked Questions (FAQ)</h3>
+        </div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Accordion -->
+            <div id="accordionExample3">
+
+				<!-- Accordion item 1 -->
+                <div class="card">
+                    <div id="headingOne" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What is MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard is a healthcare membership program which consist of</p>
+							<p class="font-weight-light m-3">1)	Medical protection that offers a high RM1.1 million per illness from only RM119/month.</p>
+							<p class="font-weight-light m-3">2)	Annual Pathlab health screening eVoucher.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+                <!-- Accordion item 2 -->
+                <div class="card">
+                    <div id="headingTwo" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Who is eligible for MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Anyone accepted by the Company aged from 30 days and up to 70 years old next birthday.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 3 -->
+                <div class="card">
+                    <div id="headingThree" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What illness does MediSavers eMedicalCard cover?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard covers almost any illness, medical condition or accident as long as it requires hospitalisation (warded). However, it does not cover pre-existing illness and is subject to underwriting. </p>
+							<br>
+							<p class="font-weight-light m-0">Please refer to our <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target="_blank"><font color="0000EE "><u>Product Disclosure Sheet</u></font></a> for details. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 4 -->
+                <div class="card">
+                    <div id="headingFour" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Do I need to go for a medical checkup before purchasing MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">No, medical checkup is not required. However, you have to answer a few health questions truthfully when purchasing MediSavers eMedicalCard.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 5 -->
+                <div class="card">
+                    <div id="headingFive" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What hospitalisation services are covered by MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard covers the following hospitalization procedures:</p>
+							<p class="font-weight-light m-3">1)	Room & Board for hospital admission or Intensive Care Unit (ICU)</p>
+							<p class="font-weight-light m-3">2)	Pre- and post-hospitalization consultation</p>
+							<p class="font-weight-light m-3">3)	Diagnostics and physiotherapy</p>
+							<p class="font-weight-light m-3">4)	X-ray and MRI scans</p>
+							<p class="font-weight-light m-3">5)	Outpatient Cancer Treatment</p>
+							<p class="font-weight-light m-3">6)	Outpatient Kidney Dialysis</p>
+							<p class="font-weight-light m-3">7)	Treatment and Surgery</p>
+							<p class="font-weight-light m-3">8)	Prescription drugs (medicine)</p>
+							<p class="font-weight-light m-3">9)	Ambulance</p>
+							<p class="font-weight-light m-0">Please refer to our <a href="https://www.mxm.com.my/wp/wp-content/uploads/2018/11/PHM-MediSavers-2018-PDS-1.9.18.pdf" target="_blank"><font color="0000EE "><u>Product Disclosure Sheet </u></font></a>for details. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 6 -->
+                <div class="card">
+                    <div id="headingSix" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">What is the Room & Board limit? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">MediSavers eMedicalCard provides coverage for hospital Room & Board up to RM 250 and RM 400.</p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+                <!-- Accordion item 7 -->
+                <div class="card">
+                    <div id="headingSeven" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Do I need to pay first if admitted to hospital? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">If you go to a MediSavers panel hospital, you won't have to pay. Just present your MediSavers eMedicalCard and we will settle the bill directly with the hospital. If you go to a non-panel hospital, you need to pay the bill first and then make a claim with MediSavers to get reimbursement. </p>
+							<br>
+							<p class="font-weight-light m-0">Note: Some hospitals may require a deposit that you will need to pay on your own first. The deposit is refundable by the hospital. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 8 -->
+                <div class="card">
+                    <div id="headingEight" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">When can I use the MediSavers eMedicalCard? </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">You can use the MediSavers eMedicalCard immediately for accidents. There is a 30-day waiting period for other illness and medical conditions. </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+				<!-- Accordion item 9 -->
+                <div class="card">
+                    <div id="headingNine" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">Where is the MediSavers eMedicalCard panel hospital list?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" aria-labelledby="headingNine" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">For the list of our panel hospitals, go to <a href="https://www.mxm.com.my/aanpanelhospital/" target=blank><font color="0000EE "><u>https://www.mxm.com.my/aanpanelhospital/</u></font></a></p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+				<!-- Accordion item 10 -->
+                <div class="card">
+                    <div id="headingTen" class="card-header test shadow-sm border-0 p-1">
+                        <h2 class="mb-0">
+                            <button type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="btn btn-link collapsed text-light font-weight-bold collapsible-link">How do I enrol for MediSavers eMedicalCard?</button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" aria-labelledby="headingTen" data-parent="#accordionExample3" class="collapse">
+                        <div class="card-body p-3">
+                            <p class="font-weight-light m-0">Just contact your servicing membership advisor or you may:<br><br>Email Us: <a href="mailto:"><font color="0000EE "><u></u></font></a><br>Drop us a PM at Facebook: <a href="http://www.m.me//life.insurance.medisavers/" target="_blank"><font color="0000EE "><u>fb.mxm.com.my</u></font></a> </p>
+                        </div>
+                    </div>
+                </div><!-- End -->
+				
+            </div><!-- End -->
+        </div>
+    </div>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/leaflet-en.jpg" target="_blank" style="width: 80%; margin-top: -15px;"><i class="far fa-map"></i>  Leaflet Section</a></center>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="img/pricing-en.jpg" target="_blank" style="width: 80%; margin-top: -15px;"><i class="fas fa-tags"></i>  Pricing Section</a></center>
+	<br>
+	<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="https://www.mxm.com.my/application-form/" target="_blank" style="width: 80%; margin-top: -15px;"><i class="far fa-file-alt"></i>  Form Section</a></center>
+</div>
+<br>
+</section>
+</div>
+		
+  <section class="page-section" id="video">
+  <div class="container">
+      <div class="row">
+	  <br>
+
+
+		<div class="col-lg-12 text-center">
+          <h3 class="section-heading">Watch the testimonies of our satisfied customers</h3>
+        </div>
+		<div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		<center><h5>MediSavers has a dedicated team to assist you with hospital admissions and claims. We stand ready to serve!</h5></center>
+                
+				<center>
+				<div class="embed-responsive embed-responsive-16by9 hoverable">
+				<div id="div-desktop">
+				  <video class="embed-responsive-item" width="900" height="506.25" controls>
+					<source src="img/video/02-en.mp4" type="video/mp4">
+				  </video>
+				 </div>
+				 <div id="div-mobile">
+				  <video class="embed-responsive-item" width="285" height="160.31" controls>
+					<source src="img/video/02-en.mp4" type="video/mp4">
+				  </video>
+				 </div>
+				</div>
+				</center>
+		</div><br>
+        </div>
+        </div>
+        </div>
+		</section>
+		
+		<div id="div-desktop">
+     <section class="page-section" id="since">
+  <div>
+        <div class="col-lg-12">
+		<center>
+		<h3><b><font color="#fff">"We have issued more than <a style=font-size:50px>200,000</a> medical insurance policies</font></b></h3>
+        <br>
+		<h3><b><font color="#fff">and assisted in <a style=font-size:50px>26,000</a> hospital admissions since 1998!”</font></b></h3>
+		</center>
+        </div>
+    </div>
+  </section>
+  </div>
+  
+  <div id="div-mobile">
+       <section class="page-section" id="sincemobile">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+		<center>
+		<h4><b><font color="#fff">"We have issued more than<br><br><a style=font-size:40px>200,000</a><br>medical insurance policies</font></b></h4>
+        <br>
+		<h4><b><font color="#fff">and assisted in <br><a style=font-size:40px>26,000 </a><br>hospital admissions since 1998!”</font></b></h4>
+		</center>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+	
+<div id="div-mobile">	
+	<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-07-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-08-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-09-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-10-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-12-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-13-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-14-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-15-en.jpg">
+          </a>
+        </div>
+		<br>
+        </div>
+		</div>
+		</section>
+		</div>
+	
+	<div id="div-desktop">	
+	<section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-01-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-02-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-03-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-04-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-05-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-06-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-07-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-08-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-09-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-10-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-11-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-12-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-13-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-14-en.jpg">
+          </a>
+        </div>
+		<br>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-15-en.jpg">
+          </a>
+        </div>
+		<div class="col-md-3 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal">
+            <img class="img-fluid" src="img/claim/claim-16-en.jpg">
+          </a>
+        </div>
+        </div>
+		</div>
+		</section>
+		</div>
+		
+		<section class="page-section" id="video">
+	    <div class="container">
+        <div class="row">
+		<div class="col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gap-padd no-padd-left">
+		<center><h3>Limited Time Offer</h3></center>
+		<center><h5>Stand a chance to win a Mercedes-Benz C200 Avantgarde and other prizes worth RM380,000!</h5></center>
+                <center>
+				<div class="video-responsive">
+				<iframe
+                    width="80%"
+                    height="480px"
+                    src="https://www.youtube.com/embed/xkY3W7FaSYM"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    frameborder="0"
+                ></iframe>
+				</div></center>
+		</div>
+        </div>
+      </div>
+      </div>
+  </section>
+  
+  <!-- Footer Desktop-->
+ 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkLAz5mhDL1T-B7_LxFFPnQ1ZysfLLq3y_jCnGHFrdYm3q9A/viewform?embedded=true" width="1050" height="1915" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+ <div id="div-desktop">
+  <footer class="footer">
+    <div class="container">
+	<div class="row align-items-center">
+	<div class="col-md-6">Follow MediSavers on Social Media Platforms!
+	</div>
+	<div class="col-md-6">Download MediSavers App now!
+	</div>
+	</div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/life.insurance.medisavers/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/medisaversmalaysia/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+			<li class="list-inline-item">
+              <a href="/" target="blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="http://onelink.to/medisavers"><img class="img-fluid d-block mx-auto" width="60%" height="10%" src="img/app.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  
+  <!-- Footer Mobile-->
+  <div id="div-mobile">
+  <footer class="footer">
+    <div class="container">
+	<div class="row align-items-center">
+	<div class="col-md-6">Follow MediSavers on Social Media Platforms!
+	</div>
+	<div class="col-md-6">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com//life.insurance.medisavers/" target="blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/medisaversmalaysia/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+			<li class="list-inline-item">
+              <a href="" target="blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+	</div>
+	&nbsp;
+	<div class="row align-items-center">
+	<div class="col-md-6">Download MediSavers App now!
+	</div>
+	<div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="http://onelink.to/medisavers "><img class="img-fluid d-block mx-auto" width="80%" height="10%" src="img/app.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+	</div>
+    </div>
+  </footer>
+  </div>
+  
+<img src="img/footer-en.png" width="100%" height="auto" />
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
